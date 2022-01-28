@@ -1,4 +1,4 @@
-This repo contains files that are part of the post at [Behaviour-Driven Development (BDD) with C# and SpecFlow - xeladu.medium.com](https://xeladu.medium.com/show-test-coverage-of-a-flutter-app-in-visual-studio-code-7e26c3b94aaf).
+This repo contains files that are part of the post at [Behaviour-Driven Development (BDD) with C# and SpecFlow - xeladu.medium.com](https://xeladu.medium.com/behaviour-driven-development-bdd-with-c-and-specflow-1bb2deb13024).
 
 # Content
 
