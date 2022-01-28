@@ -1,0 +1,12 @@
+﻿################################################################################
+# Diese .gitignore-Datei wurde von Microsoft(R) Visual Studio automatisch erstellt.
+################################################################################
+
+/.vs/BDD-Demo/v17
+/bin/Debug/net6.0
+/obj
+/.vs/BDD-Demo
+/BDD-Demo/obj
+/BDD-Demo.Tests/bin/Debug/net6.0
+/BDD-Demo.Tests/obj
+/BDD-Demo/bin/Debug/net6.0

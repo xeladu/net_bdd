@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BDD-Demo", "BDD-Demo\BDD-Demo.csproj", "{1B024A6D-A3F4-4165-88AC-2C9B2589C89C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BDD-Demo.Tests", "BDD-Demo.Tests\BDD-Demo.Tests.csproj", "{3C88C4AB-75A1-4D64-8DD5-729C8C36C349}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B024A6D-A3F4-4165-88AC-2C9B2589C89C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B024A6D-A3F4-4165-88AC-2C9B2589C89C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B024A6D-A3F4-4165-88AC-2C9B2589C89C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B024A6D-A3F4-4165-88AC-2C9B2589C89C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C88C4AB-75A1-4D64-8DD5-729C8C36C349}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C88C4AB-75A1-4D64-8DD5-729C8C36C349}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C88C4AB-75A1-4D64-8DD5-729C8C36C349}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C88C4AB-75A1-4D64-8DD5-729C8C36C349}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {441BD496-F779-41CF-AE8A-B20528F139D0}
+	EndGlobalSection
+EndGlobal
