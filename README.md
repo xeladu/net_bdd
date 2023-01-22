@@ -1,4 +1,7 @@
-This repo contains files that are part of the post at [Behaviour-Driven Development (BDD) with C# and SpecFlow - xeladu.medium.com](https://xeladu.medium.com/behaviour-driven-development-bdd-with-c-and-specflow-1bb2deb13024).
+# Sources
+
+[Behaviour-Driven Development (BDD) with C# and SpecFlow on QuickCoder](https://quickcoder.org/net-bdd/)<br/>
+[Behaviour-Driven Development (BDD) with C# and SpecFlow on Medium](https://xeladu.medium.com/behaviour-driven-development-bdd-with-c-and-specflow-1bb2deb13024)
 
 # Content
 
