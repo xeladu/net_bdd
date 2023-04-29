@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
@@ -60,5 +61,24 @@ public class LoginStepDefinitions
     public void ThenTheUserIsRedirectedToAnInternalPage()
     {
         Assert.IsTrue(_app.NavigationService.IsOnInternalPage);
+    }
+
+    [When(@"the users enters the following credentials")]
+    public void WhenTheUsersEntersTheFollowingCredentials(Table table)
+    {
+        table.Rows.First().TryGetValue("User", out var firstUser);      // contains abc
+        table.Rows.First().TryGetValue("Password", out var firstPwd);   // contains 123
+        table.Rows.Last().TryGetValue("User", out var lastUser);        // contains admin
+        table.Rows.Last().TryGetValue("Password", out var lastPwd);     // contains testtest
+    }
+
+    [When(@"the user enters the password (.*)")]
+    public void WhenTheUserEntersThePassword(string pass)
+    {
+    }
+
+    [When(@"the user enters the user (.*)")]
+    public void WhenTheUserEntersTheUser(string user)
+    {
     }
 }
